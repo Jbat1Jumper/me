@@ -9,7 +9,7 @@ def index():
 
 @app.route("/<notebook>")
 def page(notebook):
-    file = 'notebooks/{}.ipynb'.format(notebook.replace('_', ' '))
+    file = 'notebooks/{}.ipynb'.format(notebook.replace('_', '\\ '))
     return export_html(file)[0]
 
 if __name__ == "__main__":
