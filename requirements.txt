@@ -1,3 +1,4 @@
 Flask==0.11.1
 gunicorn==19.4.5
 nbconvert==4.2.0
+ipython==4.2.0
